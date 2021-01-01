@@ -4,20 +4,23 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 /* Dark Mode css */
-body {
+.light-mode {
   padding: 25px;
   background-color: white;
   color: black;
   font-size: 25px;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
+@media (prefers-color-scheme: dark) {
+  body {
+    padding: 25px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
 }
 /* end Dark Mode css */
 
- .materialize-red {
+.materialize-red {
   background-color: #e51c23 !important;
 }
 
