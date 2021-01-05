@@ -12372,12 +12372,3 @@ $jscomp.polyfill = function (e, r, p, m) {
 
   Range.init($('input[type=range]'));
 })(cash, M.anime);
-
-function darkMode() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-  }
-  
-function refreshPage() {
-  window.location.reload();
-}
